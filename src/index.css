@@ -17,6 +17,10 @@
   background-color: rgb(114, 113, 113);
   border-radius: 10px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 .category-btn{
   font-weight: bold !important;
   text-transform: capitalize;
@@ -38,4 +42,13 @@ color: white !important;
 }
 .category-btn:hover span{
   color: white !important;
+  }
+  .react-player{
+    width: 100% !important;
+    height: 77vh !important;
+  }
+  @media screen and (max-width:600px){
+    .search-bar{
+      width: 200px;
+    }
   }
